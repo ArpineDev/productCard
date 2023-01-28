@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+  background-color: yellow;
+  display: flex;
+  margin-bottom: 36px;
+}
+
+.imageWrapper {
+  width: 45%;
+  height: auto;
+  background: url('../../assets/product.png') no-repeat;
+  background-size: cover;
+}
+
+.textContainer {
+  padding: 32px;
+  max-width: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-size: 24px;
+  margin: 0;
+}
+
+.priceContainer {
+  display: flex;
+  align-items: flex-start;
+  margin: 36px 0 20px 0;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.priceContainer span {
+  color: red;
+  white-space: nowrap;
+  font-size: 24px;
+}
+
+.tag,
+.tagsContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  white-space: nowrap;
+  flex-wrap: wrap;
+  height: 20px;
+  overflow-y: hidden;
+}
+
+.tagsContainer {
+  font-size: 18px;
+  color: #474342;
+  margin-bottom: 16px;
+}
+
+.round {
+  height: 5px;
+  width: 5px;
+  background-color: #474342;
+  border-radius: 50%;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-self: flex-end;
+}
+
+.location span {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
